@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+echo "enter number the user name you want add "
+read user_name
+
+sudo useradd $user_name
+
+cat /etc/passwd | grep $user_name
+
+
+
+
+
